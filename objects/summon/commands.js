@@ -20,11 +20,11 @@ const summon = {
 
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLOR)
-      .setTitle(`Royal Kakro Summons Decree | [Click To Join](${channelLink})`)
+      .setTitle(`Royal Kakro Summons Decree`)
       .setDescription(
         `Issued from the Cucumber Throne of the Great Kakro United,\n\n` +
         `By the divine crunch and everlasting freshness of His Imperial Kakros III, Emperor Kakros III, Supreme Ruler of all Kakro Lands and Eternal Protector of the Imperial Kakros United\n\n` +
-        `You are hereby summoned by **${invoker.username}** to appear before the glorious **${channel.name}** of Kakro United without delay, by direct command of the Emerald Throne itself.\n\n` +
+        `You are hereby summoned by **${invoker.username}** to appear before the glorious ${channelLink} of Kakro United without delay, by direct command of the Emerald Throne itself.\n\n` +
         `Your presence has been requested in matters of imperial importance, and you are expected to arrive in **${channel.name}**.\n\n` +
         `Signed and sealed by:\nEmperor Kakros III\nLord of Kakro`
       )
